@@ -1,0 +1,94 @@
+/* General */
+body {
+    margin: 0;
+    font-family: "Helvetica", Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #f7f7f7;
+    color: #555;
+}
+
+nav .logo {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+}
+
+.hero img {
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+}
+
+.contact-under-photo {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.hero-text h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 20px;
+}
+
+/* Sections */
+.section {
+    padding: 50px 40px;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.section p,
+.section ul li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+
